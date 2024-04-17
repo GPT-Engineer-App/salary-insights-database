@@ -38,7 +38,7 @@ const Index = () => {
   return (
     <Box maxWidth="800px" margin="auto" padding="4">
       <Heading as="h1" size="xl" textAlign="center" marginBottom="8">
-        Salary Database
+        Salary Database for DN
       </Heading>
 
       <VStack spacing="8" align="stretch">
