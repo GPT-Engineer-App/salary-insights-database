@@ -9,6 +9,7 @@ const Index = () => {
     role: "",
     experience: "",
     education: "",
+    location: "",
   });
   const toast = useToast();
 
@@ -73,6 +74,10 @@ const Index = () => {
                 <option value="Master's">Master's</option>
                 <option value="PhD">PhD</option>
               </Select>
+            </FormControl>
+            <FormControl id="location" isRequired marginBottom="4">
+              <FormLabel>Location</FormLabel>
+              <Input type="text" name="location" value={newSalary.location} onChange={handleInputChange} />
             </FormControl>
             <Button type="submit" colorScheme="blue">
               Submit
